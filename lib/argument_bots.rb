@@ -1,7 +1,8 @@
 require 'socket'
-require './helpers'
+require 'helpers'
 
 class ArgumentBot
+  attr_reader :nick
 	
 	def initialize(nick)
 		@nick = nick
